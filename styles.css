@@ -1,0 +1,9 @@
+:root{
+    --sandy-brown: #F4A261;
+    --charcoal-blue: #264653;
+    --burnt-peach: #E76F51;
+    --verdigris: #2A9D8F;
+}
+li{
+    color: var(--sandy-brown);
+}
