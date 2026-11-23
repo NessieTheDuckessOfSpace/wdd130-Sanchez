@@ -12,9 +12,28 @@
     font-family: "Open Sans";
     src: url(fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
 }
+a{
+    text-decoration: none;
+}
 
-li{
+nav li a{
     color: var(--sandy-brown);
     text-decoration: none;
     font-family: "Open Sans", Helvetica, sans-serif;
+}
+p{
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: var(--charcoal-blue)
+}
+h2{
+    font-family: Poppins, Helvetica, sans-serif;
+    color: var(--burnt-peach);
+}
+footer{
+    font-family: Poppins, Helvetica, sans-serif;
+    color: var(--sandy-brown);
+}
+#info li{
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: var(--burnt-peach);
 }
