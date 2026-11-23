@@ -17,7 +17,7 @@ a{
 }
 
 nav li a{
-    color: var(--sandy-brown);
+    color: var(--verdigris);
     text-decoration: none;
     font-family: "Open Sans", Helvetica, sans-serif;
 }
@@ -31,9 +31,16 @@ h2{
 }
 footer{
     font-family: Poppins, Helvetica, sans-serif;
-    color: var(--sandy-brown);
+    color: var(--verdigris);
 }
 #info li{
     font-family: "Open Sans", Helvetica, sans-serif;
     color: var(--burnt-peach);
+}
+body{
+    background-color: var(--sandy-brown);
+}
+#main_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
